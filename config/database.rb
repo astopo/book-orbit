@@ -7,8 +7,8 @@ configure do
   set :database, {
     adapter: "postgresql",
     database: "bookorb_main",
-	:host => 'bookorb.it',
-:port => '2083',
+	:host => 'localhost',
+:port => '5432',
 :username => 'bookorb',
 :password => 'Lighthouse1!'
     #database: "postgres://vagrant:@localhost:5433/bookorbit"
