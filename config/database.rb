@@ -6,11 +6,11 @@ configure do
 
   set :database, {
     adapter: "postgresql",
-    database: "bookorbit",
-	:host => 'localhost',
-:port => '5432',
-:username => 'bookorbit',
-:password => 'asdf'
+    database: "bookorb_main",
+	:host => 'bookorb.it',
+:port => '2083',
+:username => 'bookorb',
+:password => 'Lighthouse1!'
     #database: "postgres://vagrant:@localhost:5433/bookorbit"
   }
 
